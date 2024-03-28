@@ -11,6 +11,7 @@ The average execution times of the C and x86-64 assembly implementations in debu
 | 2^20        | 0.006067                   | 0.002367                         |
 | 2^24        | 0.061733                   | 0.023000                         |
 | 2^29        | 1.663033                   | 0.650200                         |
+
 The x86-64 assembly implementation consistently outperforms the C implementation across all vector sizes in debug mode. As expected, the execution times increase with larger vector sizes due to the increased computations.
 
 Release mode led to improved performance for both the C and x86-64 assembly implementations:
@@ -20,6 +21,7 @@ Release mode led to improved performance for both the C and x86-64 assembly impl
 | 2^20        | 0.000800                   | 0.001100                         |
 | 2^24        | 0.016167                   | 0.020833                         |
 | 2^29        | 0.469600                   | 0.620600                         |
+
 Unexpectedly, the C implementation demonstrated slightly faster execution times compared to the x86-64 implementation in release mode. The performance of C significantly improved while the x84-64 implementation remained relatively consistent with its performance in debug mode. This may be attributed to the x86-64 kernel using NASM for both modes.
 
 ## Correctness Check
