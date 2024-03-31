@@ -36,6 +36,7 @@ int main() {
 	else {
 		avgTime(n, 30, A, B);
 
+		/* Uncomment this if you want to intiialize the vectors.
 		printf("Enter Vector A (separated by space): ");
 
 		for (int i = 0; i < n; i++) {
@@ -50,6 +51,7 @@ int main() {
 
 		printf("\nResult - C: %f\n", sdotC(A, B, n));
 		printf("Result - ASM: %f\n", sdotASM(A, B, n));
+		*/
 	}
 
 
