@@ -1,3 +1,8 @@
+/*
+LBYARCH S11
+FETALVERO, KENSHIN GAMBOA
+GUTIERREZ, CARLOS KRISTOFFER PABALAN
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
